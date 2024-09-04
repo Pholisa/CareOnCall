@@ -1,6 +1,6 @@
 body{
     font-family: Arial, sans-serif;
-    background-color: #ede3c2;
+    background-color: #b4b3af;
     margin: 0%;
 }
 
@@ -118,7 +118,10 @@ body{
     .send-button button:hover {
       background-color: #ddd6d8b6;
     }
-    
+    .wrapper-main{
+      width: 1000px;
+      margin: 0  auto;
+    }
   
 /*------------------------------------------------------------------------------WELCOME PAGE----------------------------------------------------------------------------------------*/
 
