@@ -62,9 +62,6 @@ body{
     font-weight: bold;
 }
 
-.navigationbar span{
-  color: #C6A641;
-}
 /*------------------------------------------------------------------------------REGISTER AND LOGIN---------------------------------------------------------------------------------*/
 
 #getlogin h2 {
@@ -252,7 +249,7 @@ body{
     cursor: pointer;
 }
 
-/* .logout {
+.logout {
     background-color: #C6A641;
     border: none;
     color: white;
@@ -265,17 +262,18 @@ body{
     margin: 4px 2px;
     cursor: pointer;
 
-    /* Position the button absolutely 
+    /* Position the button absolutely */
     position: relative;  
-    /* Align with the top of the container 
+    /* Align with the top of the container */
     top: 0;  
-    /* Align to the right corner 
+    /* Align to the right corner */
     left: 0%;  
+    
 }
 
 .logout:hover {
   background-color: #ede3c2;
-} */
+}
  
 /*Subscription Section*/
 /*------------------------------------------------------------------------------SUBSCRIPTION------------------------------------------------------------------------------------*/
@@ -378,11 +376,38 @@ body{
 }
 
 .basic-plan {
-height: 185px;
-background-color: #ede3c2;
-border: 2px solid #C6A641 ;
-border-radius: 8px;
-margin: 2%;
+  height: 190px;
+  background-color: #ede3c2;
+  border: 2px solid #C6A641 ;
+  border-radius: 8px;
+  margin: 2%;
+}
+
+.standard-plan {
+  height: 190px;
+  background-color: #ede3c2;
+  border: 2px solid #C6A641;
+  margin: 2%;
+  border-radius: 8px;
+
+}
+
+.premium-plan {
+  height: 190px;
+  background-color: #ede3c2;
+  border: 2px solid #C6A641;
+  border-radius: 8px;
+  margin: 2%;
+
+}
+
+.advanced-plan {
+  height: 190px;
+  background-color: #ede3c2;
+  border: 2px solid #C6A641;
+  border-radius: 8px;
+  margin: 2%;
+
 }
 
 .carwash-container ul {
@@ -396,37 +421,25 @@ margin: 2%;
 
 }
 
+.housekeeping-container ul {
+    /* Removing the bullets */
+    list-style-type: none;
+    /* Removing the browser default settings */
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    font-size: small;
+}
+
 .carwash-container p{
   font-size: 20px;
   margin-left: 10px;
 
 }
 
-.standard-plan {
-  height: 190px;
-  background-color: #ede3c2;
-  border: 2px solid #C6A641;
-  margin: 2%;
-  border-radius: 8px;
-
-}
-
-.advanced-plan {
-  height: 190px;
-  background-color: #ede3c2;
-  border: 2px solid #C6A641;
-  margin: 2%;
-  border-radius: 8px;
-
-}
-
-.premium-plan {
-  height: 190px;
-  background-color: #ede3c2;
-  border: 2px solid #C6A641;
-  margin: 2%;
-  border-radius: 8px;
-
+.housekeeping-container p {
+  font-size: 20px;
+  margin-left: 10px;
 }
 
 /*------------------------------------------------------------------------------ABOUT US-------------------------------------------------------------------------------------------*/
