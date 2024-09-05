@@ -466,35 +466,70 @@ body{
 
 /*------------------------------------------------------------------------------ABOUT US-------------------------------------------------------------------------------------------*/
 
-.aboutus p{
+.about-us {
+  padding: 20px;
+  background-color: #ede3c2;
+  margin: 0 20px;
+  border-radius: 10px;
+}
+
+.about-us h2 {
   text-align: center;
+  font-size: 24px;
 }
 
-.aboutus-content {
+.vision-mission {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-radius: 10px;
 }
 
-.aboutus-column {
-  /* Makes each column take up equal width */
-  flex: 1; 
-  /* Adds some padding inside each column */
-  padding: 10px; 
+.vision, .mission {
+  width: 45%;
+  justify-content: space-around;
+  background-color: rgb(207, 195, 180);
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.who-we-are {
+  padding: 20px;
+  background-color:#ede3c2  ;
+  margin: 20px;
+}
+
+.who-we-are h2 {
+  text-align: center;
+  font-size: 24px;
+}
+
+.team {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.team-member {
+  text-align: center;
+  width: 18%;
+  margin-bottom: 20px;
+}
+
+.team-member img {
+  width: 100%;
+  height: 17rem;
+  border-radius: 10px;
+
 }
 
 
-.aboutus-box {
-  background-color: rgba(255, 255, 255, 0.637);
-   /* Increased padding to make the box bigger */
-  padding: 70px;
-  /* Rounded corners */
-  border-radius: 20px; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-   /* Increased width to make the box bigger */
-  max-width: 700px;
-  width: 200%;
-  border: 2px solid #C6A641 ;
-  }
+.team-member p {
+  margin: 5px 0;
+}
+
   
 /*------------------------------------------------------------------------------CONTACT US--------------------------------------------------------------------------------------*/
 
