@@ -340,20 +340,28 @@ body{
   
   .subscription-button {
     background-color: #C6A641;
-    color: white;
-    padding: 5px 10px;
+    width: 5rem;
+    padding: 5px 5px;
     border: none;
     border-radius: 5px;
-    font-size: 10px;
+    font-size: 15px;
     cursor: pointer;
     transition: background-color 0.3s;
     margin-left: 10px;
   }
+
+  .subscription-button a {
+    text-decoration: none;
+    color: white;
+}
   
-  .subscription-button:hover {
-    background-color: #ede3c2;
-  }
-  
+.subscription-button:hover {
+  background-color: #ede3c2;
+}
+ 
+.subscription-button a:hover {
+  color: #333;
+}
 
 .savebtn button {
   background-color: #C6A641;
@@ -380,7 +388,8 @@ body{
 }
 
 .basic-plan {
-  height: 190px;
+  height: 220px;
+  width: 20rem;
   background-color: #ede3c2;
   border: 2px solid #C6A641 ;
   border-radius: 8px;
@@ -388,7 +397,8 @@ body{
 }
 
 .standard-plan {
-  height: 190px;
+  height: 220px;
+  width: 20rem;
   background-color: #ede3c2;
   border: 2px solid #C6A641;
   margin: 2%;
@@ -397,7 +407,8 @@ body{
 }
 
 .premium-plan {
-  height: 190px;
+  height: 220px;
+  width: 20rem;
   background-color: #ede3c2;
   border: 2px solid #C6A641;
   border-radius: 8px;
@@ -406,7 +417,8 @@ body{
 }
 
 .advanced-plan {
-  height: 190px;
+  height: 220px;
+  width: 20rem;
   background-color: #ede3c2;
   border: 2px solid #C6A641;
   border-radius: 8px;
