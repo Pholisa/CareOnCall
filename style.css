@@ -470,10 +470,10 @@ body{
 .vision, .mission {
   width: 45%;
   justify-content: space-around;
-  background-color: rgb(207, 195, 180);
+  background-color: #e5d5a0;
   padding: 15px;
-  border: 1px solid #ddd;
-  border-radius: 10px;
+  border: 2px solid #C6A641;
+   border-radius: 10px;
 }
 
 .who-we-are {
