@@ -66,6 +66,63 @@ body{
   color: #C6A641;
 }
 
+/*------------------------------------------------------------------------------REGISTER AND LOGIN---------------------------------------------------------------------------------*/
+
+#getlogin h2 {
+  margin-top: 10%;
+  text-align: center;
+  font-size: 50px;
+  }
+  
+  #getregister h2 {
+    text-align: center;
+    font-size: 50px;
+    }
+
+
+  .connect-input {
+      text-align: center;
+      border-radius: 5px;
+  }
+ 
+  
+    .send-button button {
+        background-color: #C6A641;
+        color: #FDF4E3;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 20px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        width: 60%;
+        margin-left: 20%;
+  
+    }
+  
+    .send-button button:hover {
+      background-color: #ddd6d8b6;
+    }
+    
+    .wrapper-main{
+      width: 1000px;
+      margin: 0  auto;
+    }
+  
+    .reg-link {
+     margin-left:2% ;
+     font-size: 15px;
+    }
+
+    #checkbox-remember {
+      width: 20px;
+      height: 20px ;
+    }
+/*------------------------------------------------------------------------------FORGET PASSWORD----------------------------------------------------------------------------------------*/
+
+.forget-password {
+  margin-top: 3%;
+}
 /*------------------------------------------------------------------------------WELCOME PAGE----------------------------------------------------------------------------------------*/
 
 
@@ -165,7 +222,51 @@ body{
 .gallery:hover {
     opacity: 0.7;
 }
+/*------------------------------------------------------------------------------LOGOUT-------------------------------------------------------------------------------------------------*/
 
+.button:hover {
+  background-color: #ede3c2;
+}
+
+.button {
+    background-color: #C6A641;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.logout {
+    background-color: #C6A641;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    border-radius: 5px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+    /* Position the button absolutely */
+    position: relative;  
+    /* Align with the top of the container */
+    top: 0;  
+    /* Align to the right corner */
+    left: 0%;  
+    
+}
+
+.logout:hover {
+  background-color: #ede3c2;
+}
+ 
 /*Subscription Section*/
 /*------------------------------------------------------------------------------SUBSCRIPTION------------------------------------------------------------------------------------*/
 
@@ -413,6 +514,8 @@ body{
 
   
 /*------------------------------------------------------------------------------CONTACT US--------------------------------------------------------------------------------------*/
+
+
 
 .contactus-content {
   display: flex;
