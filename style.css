@@ -191,13 +191,10 @@ body{
  font-size: 2.3em;
 
 }
-.first-services, .second-services {
-  /* Additional space from the top */
-  padding-top: 120px; 
-
+.first-services {
+    padding-top: 120px; 
     display: flex;
     justify-content: center;
-    margin-right: 15%;
 }
 
 .gallery {
