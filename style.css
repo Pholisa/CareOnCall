@@ -20,6 +20,7 @@ body{
     position: sticky;
     /*Ensures that the navigation bar does not move when scrolling*/
     top: 0;
+    z-index: 999;
 }
 .navigationbar {
   background-color: #333;
