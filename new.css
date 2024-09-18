@@ -42,7 +42,8 @@ input[type="text"], input[type="tel"], input[type="tel"], input[type="email"], i
     
 }
 .btn a{
-    text-decoration: none;
+    text-decoration:underline;
+    color: blue;
 }
 
 button {
@@ -64,6 +65,8 @@ button[type="submit"] {
     color: #000000;
     font-weight: bold;
 }
+
 .btn button:hover {
     background-color: #161314b6;
 }
+

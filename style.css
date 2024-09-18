@@ -1,10 +1,16 @@
-body{
-    font-family: Arial, sans-serif;
-    background-color: #ede3c2;
-    margin: 0%;
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif, Arial;
+  background-color: #ede3c2;
 }
 
 
+p {
+  font-size: 20px;
+}
 /*------------------------------------------------------------------------------NAVIGATION BAR----------------------------------------------------------------------------------*/
 
 
@@ -273,22 +279,17 @@ body{
 /*Subscription Section*/
 /*------------------------------------------------------------------------------SUBSCRIPTION------------------------------------------------------------------------------------*/
 
-  .subscription-content-one {
+#getsubscription {
+  padding: 10px 10px;
+}
+  .subscription-container {
     display: flex;
     justify-content: center;
   }
-   
-  .subscription-box-one {
-    background-color: rgba(255, 255, 255, 0.637);
-    /* Increased padding to make the box bigger */
-    padding: 70px;
-    /* Rounded corners */ 
-    border-radius: 20px;
-     /* Increased width to make the box bigger */
-    max-width: 700px;
-    width: 200%;
-    border: 2px solid #C6A641 ;
 
+  .subscription-content-one {
+    display: flex;
+    justify-content: center;
   }
 
   .subscription-content-two {
@@ -296,15 +297,28 @@ body{
     justify-content: center;
   }
    
+  .subscription-box-one {
+    background-color: rgba(255, 255, 255, 0.637);
+    /* Increased padding to make the box bigger */
+    padding: 10px 10px;
+    /* Rounded corners */ 
+    border-radius: 20px;
+     /* Increased width to make the box bigger */
+    width: 700px;
+    height: 600px;
+    border: 2px solid #C6A641 ;
+
+  }
+   
   .subscription-box-two {
     background-color: rgba(255, 255, 255, 0.637);
     /* Increased padding to make the box bigger */
-    padding: 70px; 
+    padding: 10px 10px; 
     /* Rounded corners */
     border-radius: 20px;
     /* Increased width to make the box bigger */
-    max-width: 700px; 
-    width: 200%;
+    width: 700px; 
+    height: 600px;
     border: 2px solid #C6A641 ;
 
   }
@@ -315,7 +329,7 @@ body{
     /*Adds space between the two divs */
     justify-content: space-between; 
     /*Space between the divs */
-    gap: 20px; 
+    gap: 0; 
 
 }
 
@@ -370,12 +384,14 @@ body{
   display: grid;
   grid-template-columns: 1fr 1fr;
   color: #333;
+  gap: 20px;
 }
 
 .housekeeping-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   color: #333;
+  gap: 20px;
 }
 
 .basic-plan {
@@ -460,7 +476,7 @@ body{
 
 .about-us h2 {
   text-align: center;
-  font-size: 24px;
+  font-weight: 700px;
 }
 
 .vision-mission {
@@ -513,6 +529,7 @@ body{
 
 .team-member p {
   margin: 5px 0;
+  font-weight: 600;
 }
 
   
