@@ -502,8 +502,9 @@ header {
   justify-content: space-around;
   background-color: #e5d5a0;
   padding: 15px;
+  margin: 2%;
   border: 2px solid #C6A641;
-   border-radius: 10px;
+  border-radius: 10px;
 }
 
 .who-we-are {
