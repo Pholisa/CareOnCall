@@ -317,6 +317,10 @@ header {
     border: 2px solid #C6A641 ;
 
   }
+
+  .subscription-box-one h2 {
+    margin-left: 16rem;
+  }
    
   .subscription-box-two {
     background-color: rgba(255, 255, 255, 0.637);
