@@ -137,6 +137,7 @@ header {
 
 #gethome {
   padding-top: 80px;
+  height: 600px;
 }
 .welcomehome h2{
    text-align: center;
@@ -308,7 +309,7 @@ header {
   .subscription-box-one {
     background-color: rgba(255, 255, 255, 0.637);
     /* Increased padding to make the box bigger */
-    padding: 10px 10px;
+    padding: 10px 30px;
     /* Rounded corners */ 
     border-radius: 20px;
      /* Increased width to make the box bigger */
@@ -317,11 +318,19 @@ header {
     border: 2px solid #C6A641 ;
 
   }
+
+  .subscription-box-one h2 {
+    margin-left: 16rem;
+  }
+
+  .subscription-box-two h2 {
+    margin-left: 16rem;
+  }
    
   .subscription-box-two {
     background-color: rgba(255, 255, 255, 0.637);
     /* Increased padding to make the box bigger */
-    padding: 10px 10px; 
+    padding: 10px 30px; 
     /* Rounded corners */
     border-radius: 20px;
     /* Increased width to make the box bigger */
