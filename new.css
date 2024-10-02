@@ -71,3 +71,12 @@ button[type="submit"] {
 .btn button:hover {
     background-color: #161314b6;
 }
+.forgotP {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+.forgotP a{
+    text-decoration: none;
+}
