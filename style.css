@@ -630,7 +630,7 @@ textarea{
   height: 250px;
 }
 
-.cntct-btn {
+.cntct-btn button {
   background-color:#C6A641;
   color: white;
   padding: 10px 20px;
@@ -639,7 +639,7 @@ textarea{
   font-size: 20px;
   cursor: pointer;
   transition: background-color 0.3s;
-  width: 90%;
+  width: 100%;
   text-align: center;
 
 }
