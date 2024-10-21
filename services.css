@@ -139,3 +139,14 @@ button:hover {
     margin-left: 79%;
     width: 8%;
 }
+.house-option {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.house-option img {
+  transition: opacity 0.3s ease; 
+}
+
+.house-option.selected img {
+  opacity: 0.2; 
+}

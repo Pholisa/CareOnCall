@@ -22,31 +22,31 @@
 
         <div class="services">
             <div class="our-services">
-                <img src="bachelor.jfif" alt="Request" class="gallery" style="width:100%;">
+                <a href="#"class="house-option" data-price="500"><img src="bachelor.jfif" alt="bachelor" class="gallery" style="width:100%;" height="150"></a>
                 <div class="home-container">
                     <h3>Bachelor - R500</h3>
-                    <button class="house-option" data-price="500">Select</button>
+                    
                 </div>
             </div>
             <div class="our-services">
-                <img src="standhouse.jfif" alt="Standard house" class="gallery" style="width:100%;" height="150">
+                <a href="#"class="house-option" data-price="700"><img src="standhouse.jfif" alt="Standard house" class="gallery" style="width:100%;" height="150"></a>
                 <div class="home-container">
                     <h3>Standard House - R700</h3>
-                    <button class="house-option" data-price="700">Select</button>
+                    
                 </div>
             </div>
             <div class="our-services">
-                <img src="penthouse.jfif" alt="Penthouse" class="gallery" style="width:100%;">
+                <a href="#"class="house-option" data-price="1500"><img src="penthouse.jfif" alt="Standard house" class="gallery" style="width:100%;" height="150"></a>
                 <div class="home-container">
                     <h3>Penthouse - R1500</h3>
-                    <button class="house-option" data-price="1500">Select</button>
+                    
                 </div>
             </div>
             <div class="our-services">
-                <img src="mansion.jfif" alt="Mansion" class="gallery" style="width:100%;">
+                <a href="#"class="house-option" data-price="2000"><img src="mansion.jfif" alt="Standard house" class="gallery" style="width:100%;" height="150"></a>
                 <div class="home-container">
-                    <h3>Mansion - R2000</h3>
-                    <button class="house-option" data-price="2000">Select</button>
+                    <h3>Mansion House - R2000</h3>
+                    
                 </div>
             </div>
         </div>
@@ -149,13 +149,17 @@
             document.getElementById('totalPrice').textContent = 'R ' + total.toFixed(2);
         }
 
-        const houseButtons = document.querySelectorAll('.house-option');
-        houseButtons.forEach(button => {
-            button.addEventListener('click', function() {
-                basePrice = parseInt(this.getAttribute('data-price')); 
-                updateTotalPrice(); 
-            });
-        });
+        const houseOptions = document.querySelectorAll('.house-option');
+houseOptions.forEach(option => {
+    option.addEventListener('click', function() {
+        basePrice = parseInt(this.getAttribute('data-price')); // Set base price to the selected house
+        updateTotalPrice(); // Update total price
+        
+        // Highlight the selected house
+        houseOptions.forEach(opt => opt.classList.remove('selected')); // Remove previous selections
+        this.classList.add('selected'); // Highlight the selected house
+    });
+});
 
         
         document.getElementById('bedrooms').addEventListener('change', updateTotalPrice);
